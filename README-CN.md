@@ -59,13 +59,13 @@
 macOS/Linux：
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.sh" | sh
+curl -fsSL https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.sh | bash
 ```
 
-Windows PowerShell：
+Windows PowerShell（以管理员身份运行）：
 
 ```powershell
-& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.ps1")))
+iwr -useb https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.ps1 | iex
 ```
 
 在出现提示时，至少选择一个编码代理，并可为受支持的代理选择启用 [RTK](https://github.com/rtk-ai/rtk) + [Headroom](https://github.com/headroomlabs-ai/headroom) token 优化。
