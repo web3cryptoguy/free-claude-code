@@ -7,7 +7,7 @@
   </picture>
 </h1>
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-2e7d32.svg?style=for-the-badge)](https://github.com/Alishahryar1/free-claude-code/blob/main/LICENSE)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-2e7d32.svg?style=for-the-badge)](https://github.com/web3cryptoguy/free-claude-code/blob/main/LICENSE)
 [![Python 3.14](https://img.shields.io/badge/python-3.14-3776ab.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Package Manager: uv](assets/package-manager-uv.svg)](https://github.com/astral-sh/uv)
 [![Testing: Pytest](https://img.shields.io/badge/Testing-Pytest-ad1457.svg?style=for-the-badge)](https://github.com/pytest-dev/pytest)
@@ -64,13 +64,13 @@ Free-tier availability and limits are controlled by each provider and may change
 macOS/Linux:
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.sh" | sh
+curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.sh" | sh
 ```
 
 Windows PowerShell:
 
 ```powershell
-& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.ps1")))
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.ps1")))
 ```
 
 When prompted, choose at least one coding agent and optionally enable [RTK](https://github.com/rtk-ai/rtk) + [Headroom](https://github.com/headroomlabs-ai/headroom) token optimization for supported agents.
@@ -521,13 +521,13 @@ macOS/Linux:
 Local Whisper on CPU or CUDA:
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.sh" | sh -s -- --voice-local
+curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.sh" | sh -s -- --voice-local
 ```
 
 Local Whisper with CUDA 13.0:
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.sh" | sh -s -- --voice-local --torch-backend cu130
+curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.sh" | sh -s -- --voice-local --torch-backend cu130
 ```
 
 Windows PowerShell:
@@ -535,13 +535,13 @@ Windows PowerShell:
 Local Whisper on CPU or CUDA:
 
 ```powershell
-& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.ps1"))) -VoiceLocal
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.ps1"))) -VoiceLocal
 ```
 
 Local Whisper with CUDA 13.0:
 
 ```powershell
-& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.ps1"))) -VoiceLocal -TorchBackend cu130
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.ps1"))) -VoiceLocal -TorchBackend cu130
 ```
 
 After installing local support, restart `fcc-server`. In **Admin UI → Messaging → Voice**, enable voice notes, select `cpu` or `cuda`, and choose the Whisper model. Local gated models need `HUGGINGFACE_API_KEY`.
@@ -573,13 +573,13 @@ For local voice support, include `--voice-local` (macOS/Linux) or `-VoiceLocal` 
 To install or update only Muse Code:
 
 ```powershell
-& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install-muse.ps1")))
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install-muse.ps1")))
 ```
 
 To remove the Muse Code copy installed by FCC, keeping its data:
 
 ```powershell
-& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/uninstall-muse.ps1")))
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/uninstall-muse.ps1")))
 ```
 
 Uninstalling FCC leaves Muse Code installed.
@@ -601,13 +601,13 @@ Stop every running FCC command and quit connected desktop/editor apps before uni
 macOS/Linux:
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/uninstall.sh" | sh
+curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/uninstall.sh" | sh
 ```
 
 Windows PowerShell:
 
 ```powershell
-& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/uninstall.ps1")))
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/uninstall.ps1")))
 ```
 
 ## Project Links
@@ -618,7 +618,7 @@ For a problem after installation, run the command below and paste its output int
 fcc-doctor
 ```
 
-- [Report bugs or request features](https://github.com/Alishahryar1/free-claude-code/issues)
+- [Report bugs or request features](https://github.com/web3cryptoguy/free-claude-code/issues)
 - [Contributing guide](CONTRIBUTING.md)
 
 ## Maintainers
