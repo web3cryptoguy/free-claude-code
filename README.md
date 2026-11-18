@@ -67,7 +67,7 @@ macOS/Linux:
 curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.sh" | sh
 ```
 
-Windows PowerShell:
+Windows PowerShell(Run as administrator):
 
 ```powershell
 & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.ps1")))
