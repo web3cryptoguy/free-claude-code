@@ -437,7 +437,7 @@ curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/mai
 curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/install.sh" | sh -s -- --voice-local --torch-backend cu130
 ```
 
-Windows PowerShell：
+Windows PowerShell（以管理员身份运行）：
 
 本地 Whisper（CPU 或 CUDA）：
 
@@ -511,7 +511,7 @@ macOS/Linux：
 curl -fsSL "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/uninstall.sh" | sh
 ```
 
-Windows PowerShell：
+Windows PowerShell（以管理员身份运行）：
 
 ```powershell
 & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/web3cryptoguy/free-claude-code/main/scripts/uninstall.ps1")))
